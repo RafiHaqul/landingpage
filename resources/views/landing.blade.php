@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jasa Ilustrasi</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .hero-section {
             background-image: url('{{ asset('image/background-hero.jpeg') }}');
@@ -21,21 +21,6 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.5);
         }
-        
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .box {
-            background-color: #eeeeee; /* Warna latar belakang kotak */
-            padding: 20px; /* Ruang dalam kotak */
-            border-radius: 10px; /* Membuat sudut kotak menjadi melengkung */
-            margin-bottom: 20px; /* Jarak antara kotak */
-            flex-grow: 1; /* Menggunakan ruang yang tersedia dengan fleksibilitas yang sama */
-        }
-
-
     </style>
 </head>
 <body>
@@ -46,42 +31,34 @@
     <div class="jumbotron jumbotron-fluid hero-section">
         <div class="background-overlay"></div>
         <div class="container text-white text-center" style="position: relative; z-index: 1;"   >
-            <h1 class="display-4 font-weight-bold">Selamat Datang di Layanan Jasa Ilustrasi Anime!</h1>
-            <p class="lead">Apakah Anda ingin karakter anime khusus yang mencerminkan kepribadian Anda? Atau mungkin Anda ingin melihat karakter favorit Anda dalam gaya yang unik? Kami di sini siap membantu mewujudkan imajinasi Anda menjadi karya seni yang memukau!</p>
-            <a class="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" role="button">Pesan Sekarang</a>
+            <h1 class="text-4xl font-bold">Selamat Datang di Layanan Jasa Ilustrasi Anime!</h1>
+            <p class="text-lg">Apakah Anda ingin karakter anime khusus yang mencerminkan kepribadian Anda? Atau mungkin Anda ingin melihat karakter favorit Anda dalam gaya yang unik? Kami di sini siap membantu mewujudkan imajinasi Anda menjadi karya seni yang memukau!</p>
+            <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full inline-block mt-4" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" role="button">Pesan Sekarang</a>
             <p style=""><em>21.11.3854 - 21.11.38 - 21.11.38</em></p>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="box">
-                    <h2>Komisi Karakter Anime</h2>
-                    <p>Buat karakter anime sesuai keinginan Anda! Mulai dari karakter asli hingga fanart dari karakter favorit Anda.</p>
-                </div>
+    <section class="container ">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div class="rounded-3xl p-3 bg-gray-200">
+                <h2 class="text-xl font-bold">Komisi Karakter Anime</h2>
+                <p>Buat karakter anime sesuai keinginan Anda! Mulai dari karakter asli hingga fanart dari karakter favorit Anda.</p>
             </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <h2>Fleksibilitas dalam Pemesanan</h2>
-                    <p>Kami memahami setiap detail penting bagi Anda. Berikan referensi seperti pose, nama karakter, aksesoris, dan yang lainnya untuk memastikan hasil akhir sesuai dengan harapan Anda.</p>
-                </div>
+            <div class="rounded-3xl p-3 bg-gray-200">
+                <h2 class="text-xl font-bold">Fleksibilitas dalam Pemesanan</h2>
+                <p>Kami memahami setiap detail penting bagi Anda. Berikan referensi seperti pose, nama karakter, aksesoris, dan yang lainnya untuk memastikan hasil akhir sesuai dengan harapan Anda.</p>
             </div>
-            <div class="col-md-4">
-                <div class="box">
-                    <h2>Kualitas Profesional</h2>
-                    <p>Dibuat oleh seniman berbakat dengan pengalaman dalam menciptakan karakter anime yang memikat.</p>
-                </div>
+            <div class="rounded-3xl p-3 bg-gray-200">
+                <h2 class="text-xl font-bold">Kualitas Profesional</h2>
+                <p>Dibuat oleh seniman berbakat dengan pengalaman dalam menciptakan karakter anime yang memikat.</p>
             </div>
         </div>
-    </div>
-    
-
-    
+    </section> 
 
     @include('includes.footer')
 
     <!-- JavaScript -->
+    <!-- Anda dapat menghapus atau memodifikasi bagian ini jika tidak memerlukan JavaScript khusus -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

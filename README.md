@@ -1,8 +1,13 @@
-ini pakek framework laravel
+## ini pakek framework laravel
 
-jalankan program di terminal "php artisan serve"
+**jalankan program di terminal** 
 
-edit tampilan view di "resources\views\landing.blade.php"
-edit header ama footer di "resources\views\includes"
+    php artisan serve
 
-css pakek bootstarp sementara
+<br>edit tampilan view di 
+> "resources\views\landing.blade.php"
+
+<br>edit header ama footer di 
+> "resources\views\includes"
+
+***<br>css pakek tailwindddd***

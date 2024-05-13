@@ -9,29 +9,18 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="{{ asset('image/logo.png') }}" width="30" height="30" class="d-inline-block align-top" alt="Logo">
-            KntlKejepit123
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Beranda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
-                </li>
-            </ul>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-white text-xl font-bold" href="#">
+                <img src="{{ asset('image/logo.png') }}" alt="Logo" class="h-8 inline-block">
+                NAMA JASA
+            </a>
+            <div class="space-x-4">
+                <a class="text-gray-300 hover:text-white" href="#">Beranda</a>
+                <a class="text-gray-300 hover:text-white" href="#">Menu</a>
+                <a class="text-gray-300 hover:text-white" href="#">Tentang Kami</a>
+                <a class="text-gray-300 hover:text-white" href="#">Kontak</a>
+            </div>
         </div>
     </nav>
 </body>
