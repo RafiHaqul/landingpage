@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasa Ilustrasi</title>
+    <title>AniArt</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .hero-section {
@@ -34,11 +34,13 @@
             <h1 class="text-4xl font-bold">Selamat Datang di Layanan Jasa Ilustrasi Anime!</h1>
             <p class="text-lg">Apakah Anda ingin karakter anime khusus yang mencerminkan kepribadian Anda? Atau mungkin Anda ingin melihat karakter favorit Anda dalam gaya yang unik? Kami di sini siap membantu mewujudkan imajinasi Anda menjadi karya seni yang memukau!</p>
             <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full inline-block mt-4" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" role="button">Pesan Sekarang</a>
-            <p style=""><em>21.11.3854 - 21.11.38 - 21.11.38</em></p>
+            <p style=""><em>21.11.3854 - 21.11.3885 - 21.11.3853</em></p>
         </div>
     </div>
 
-    <section class="container ">
+    <h1 class="text-center text-3xl font-bold">Keuntungan memilih jasa kami</h1>
+
+    <section class="container p-4">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
             <div class="rounded-3xl p-3 bg-gray-200">
                 <h2 class="text-xl font-bold">Komisi Karakter Anime</h2>
@@ -56,12 +58,5 @@
     </section> 
 
     @include('includes.footer')
-
-    <!-- JavaScript -->
-    <!-- Anda dapat menghapus atau memodifikasi bagian ini jika tidak memerlukan JavaScript khusus -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
 </html>

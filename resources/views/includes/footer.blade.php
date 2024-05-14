@@ -14,10 +14,10 @@
         <div class="mb-4">
             <a href="https://wa.me/1234567890" class="mx-2 hover:text-white">WhatsApp</a>
             <a href="mailto:email@example.com" class="mx-2 hover:text-white">Email</a>
-            <a href="https://twitter.com/username" class="mx-2 hover:text-white">Twitter</a>
-            <a href="https://instagram.com/username" class="mx-2 hover:text-white">Instagram</a>
+            <a href="https://twitter.com/takameru_" class="mx-2 hover:text-white">Twitter</a>
+            <a href="https://instagram.com/timothyronaldd" class="mx-2 hover:text-white">Instagram</a>
         </div>
-        <p>Antar Makanan &copy; 2024. All rights reserved.</p>
+        <p>AniArt &copy; 2024. All rights reserved.</p>
     </div>
 </footer>
 
